@@ -1,0 +1,146 @@
+*{padding: 0;
+    margin: 0;
+}
+body{
+   
+    background:url(background/1379802.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 993px;
+    overflow: hidden;;
+
+
+    
+    
+   
+   
+
+}
+
+.container {
+margin: 3pc 21pc;
+   width: 450px;
+   height: 600px;
+   background:rgba(255, 255, 255, 0.3)
+
+   
+   ;display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   
+   border-radius: 20px;
+   position: relative;
+   
+
+    
+}
+.usernam {
+padding: 10px;
+position: relative;;
+
+}
+
+.usernam input {
+   
+    width: 15pc;
+    padding: 15px;
+    text-align: center;
+    
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+.user-icon {
+    width: 17px;
+    position: absolute;
+    left: 9%;
+    top:32%
+    
+}
+.pass-icon {
+    width: 17px;
+    position: absolute;
+    left: 9%;
+    top:32%
+}
+.login a {
+    text-decoration: none;
+    background:rgb(39, 120, 212);
+    padding: 15px;
+  width: 15pc;
+  display: inline-block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 18px;
+  transition: .5s;
+  border-radius: 6px;
+
+
+}
+.login a:hover{
+   background:linear-gradient(to left, rgb(5, 170, 247),rgb(175, 172, 172));
+  
+;
+
+}
+.SignUp a {
+    text-decoration: none;
+    width: 15pc;
+  display: inline-block;
+    background:rgb(22, 97, 182);
+    padding: 15px;
+    margin: 25px;
+  width: 15pc;
+  display: inline-block;
+  text-align: center;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+  
+}
+
+#fab {
+ color: white;
+
+    position: absolute;
+    left: 63%;
+    top: 77%
+    
+}
+.SignUp a:hover {
+    background:rgb(96, 157, 228) ;
+}
+.Gogle a {
+    width: 15pc;
+    display: inline-block;
+    text-decoration: none;
+    background:tomato;
+    padding: 15px;
+    text-align: center;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;;
+
+    
+}
+#fab1 {
+    position: absolute;
+    left: 63%;
+    top: 86.8%;
+    color: white;
+}
+.Gogle a:hover {
+    background: rgb(199, 110, 95);
+}
+.createacc a {
+    text-decoration: none;
+    color: rgb(9, 167, 230);
+    display: inline-block;
+   position: absolute;
+   right: 70px;
+   bottom: 135px;
+   padding: 25px;
+   
+}
